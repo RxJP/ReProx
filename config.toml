@@ -1,0 +1,7 @@
+[proxy]
+port       = 8700
+backlog    = 256        # listen() backlog (SOMAXCONN if omitted or <= 0)
+buffer_size = 4096    # per-connection recv/send buffer in bytes
+
+[epoll]
+max_events = 128        # maximum events returned by a single epoll_wait call
