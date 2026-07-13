@@ -11,5 +11,5 @@ FetchContent_Declare(
 )
 FetchContent_MakeAvailable(tomlplusplus)
 
-add_executable(ReProx main.cpp config.cpp)
+add_executable(ReProx main.cpp config/config.cpp)
 target_link_libraries(ReProx PRIVATE tomlplusplus::tomlplusplus)
