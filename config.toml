@@ -1,7 +1,7 @@
 [proxy]
 port = 8700
 backlog = 256         # listen() backlog (SOMAXCONN if omitted or <= 0)
-buffer_size = 4096        # per-connection recv/send buffer in bytes
+buffer_size = 10240       # per-connection recv/send buffer in bytes
 upstream_host = "127.0.0.1" # address of the server to forward requests to
 upstream_port = 10001        # port of the upstream server
 

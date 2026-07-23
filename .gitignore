@@ -1,4 +1,8 @@
 cmake-build-debug
+cmake-build-release
 .idea
 .venv
 notes.md
+bench/bench_results
+bench/bin
+bench/temp.py
